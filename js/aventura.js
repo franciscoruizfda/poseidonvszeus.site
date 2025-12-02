@@ -49,7 +49,6 @@ let sketch = (p) => {
 
  
   p.draw = function () {
-    s
     mostrarPantalla(estado);
   };
 
@@ -258,5 +257,6 @@ let sketch = (p) => {
   };
 
 };
+
 
 new p5(sketch);
